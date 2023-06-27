@@ -1,4 +1,2 @@
-.venv/
-.ruff_cache/
-output/
-src/__pycache__
+.venv
+.python-version

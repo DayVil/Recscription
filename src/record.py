@@ -14,7 +14,6 @@ def callback(indata, frames, time, status):
 
 
 def start_recording(samplerate: int, device: int | str | None, channels: int, output_dir: str, delete=True):
-
     if not delete:
         tempfile.tempdir = output_dir
     tmp_file = tempfile.NamedTemporaryFile(suffix=".wav", delete=delete)
